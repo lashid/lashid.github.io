@@ -7,9 +7,6 @@ tags: [Recommendation System]
 date-string: SEPTEMBER 28, 2021
 ---
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="_/js/libs/jquery-1.9.1.min.js"><\/script>')</script>
-
 <p>
 *** 추천 시스템의 작년까지의 논문 3가지를 정리해두려 한다.
 
