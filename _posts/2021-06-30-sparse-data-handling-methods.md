@@ -30,12 +30,11 @@ Major Class를 줄여 불균형을 해소하는 것이 Under Sampling이다.
 그래서 활용한 것이 2가지가 존재한다.
 
 
-
 1. RBU(Radial-based Undersampling)
 
 <center>
     <div class="photoset-grid-custom" data-layout="213">
-        <img src="../images/2021-06-30/RBU.png">
+        <img src="/images/2021-06-30/RBU.png">
     </div>
 </center>
 
@@ -58,7 +57,6 @@ RBU는 Major Class의 밀집도가 높은 지역에서 Minor Class와 거리가 
 > 우리는 거리를 계산하는 벡터는 따로 임베딩 없이 범주형 변수만 빼고, 연속형 변수만 가져다가 거리 계산 했음!
 
 
-
 2. Focal Loss
 
 Loss Function 상에서 Major Class의 영향을 줄이고자 한 것이 Focal Loss인데
@@ -67,13 +65,13 @@ Loss Function 상에서 Major Class의 영향을 줄이고자 한 것이 Focal L
 
 <center>
     <div class="photoset-grid-custom" data-layout="213">
-        <img src="../images/2021-06-30/Focal Loss 1.png">
+        <img src="/images/2021-06-30/Focal Loss 1.png">
     </div>
 </center>
 
 <center>
     <div class="photoset-grid-custom" data-layout="213">
-        <img src="../images/2021-06-30/Focal Loss 2.png">
+        <img src="/images/2021-06-30/Focal Loss 2.png">
     </div>
 </center>
 
@@ -85,7 +83,7 @@ Loss Function 상에서 Major Class의 영향을 줄이고자 한 것이 Focal L
 
 <center>
     <div class="photoset-grid-custom" data-layout="213">
-        <img src="../images/2021-06-30/Focal Loss 3.png">
+        <img src="/images/2021-06-30/Focal Loss 3.png">
     </div>
 </center>
 
