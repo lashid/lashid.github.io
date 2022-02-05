@@ -16,7 +16,8 @@ date-string: SEPTEMBER 28, 2021
 3. PLE (Multitask)
 
 *결론부터 말하면 DeepLight의 AUROC > Fi-GNN의 AUROC 이지만 Fi-GNN이 좀 더 고차원의 Interaction을 잡아낼 수 있을 것으로 기대되는 부분이 존재한다. PLE는 Task들이 연관되어 있다면 좋은 성능을 낼 것으로 기대됨. 다만 우리 쇼핑몰에서 클릭과 구매가 연관되어 있는지는 의문.
-
+</p>
+<p>
 ## Issue 1. DeepFwFM의 Pruning 버전. DeepLight.
 
 *DeepLight를 알기 전에 DeepFwFM을 알아야 하고, DeepFwFM을 알기 전에 DeepFM을 알아야 하며, DeepFM을 알기 전에 Wide and Deep을 알아야하고, 기본적으로 FM을 알아야 한다.
@@ -39,7 +40,8 @@ date-string: SEPTEMBER 28, 2021
 * DeepLight: DeepFwFM 에서 특정 부분들의 계산을 제외함으로서, 약 27~46배의 속도 향상을 가져옴 (Criteo, Avazu Dataset 기준)
 
   > 정확히 말하면, ① DNN의 Fully Connected 부분에서 필요 없는 가중치 제외, ② FM 부분에서 필요 없는 Interactions 제외, ③ Embedding Vector 에서 필요 없는 요소 제외
-
+</p>
+<p>
 ## Issue 2. Spatial GNN의 Fi-GNN
 
 *Fi-GNN은 다음 흐름을 따라오면 이해하기 좋다.
@@ -63,7 +65,8 @@ date-string: SEPTEMBER 28, 2021
 4. Attention Scoring Layer
 
    > 이후 최종 Score 계산.
-
+</p>
+<p>
 ## Issue 3. MMOE의 발전된 형태. PLE.
 
 *Multitask Model 의 기대점은 하나의 모델이 여러 개의 Tasks를 한 번에 학습해서, 옆의 Task에서 배운 것을 다른 Task에도 활용하기를 기대하는 것이다.
