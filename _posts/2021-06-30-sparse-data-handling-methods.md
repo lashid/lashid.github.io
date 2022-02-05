@@ -33,7 +33,11 @@ Major Class를 줄여 불균형을 해소하는 것이 Under Sampling이다.
 
 1. RBU(Radial-based Undersampling)
 
-![img](https://postfiles.pstatic.net/MjAyMTA2MzBfMjIg/MDAxNjI1MDQyNTAyMzA1.8yENmirXb2KYO2wBDABbw4mZj3LF_idNT7Nn0-CiQvEg.oLGTP-Hm_ZId5deu8lqoS6yv0VB9r-75fjro0O8Pa3Ag.PNG.gauss3th/image.png?type=w773)
+<center>
+    <div class="photoset-grid-custom" data-layout="213">
+        <img src="../images/2021-06-30/RBU.png">
+    </div>
+</center>
 
 기존의 Undersampling 방법이 Cluster를 기반하으로 하는 등의 방식을 선택해왔는데
 
@@ -61,9 +65,17 @@ Loss Function 상에서 Major Class의 영향을 줄이고자 한 것이 Focal L
 
 먼저 Binary Classification에서 활용하는 Cross Entropy Loss Function을 알 필요가 있다.
 
-![img](https://postfiles.pstatic.net/MjAyMTA2MzBfMjY4/MDAxNjI1MDQzMzgxMjIz.kmaGGXjG9gcYcM9bkRbtr5Pkt5mjFX4ITS3AHeOYeUcg.PXHKkhb10r3cKEZFu1xZxevaRmArDyJQjHZTmTHVEUgg.PNG.gauss3th/image.png?type=w773)
+<center>
+    <div class="photoset-grid-custom" data-layout="213">
+        <img src="../images/2021-06-30/Focal Loss 1.png">
+    </div>
+</center>
 
-![img](https://postfiles.pstatic.net/MjAyMTA2MzBfMjUg/MDAxNjI1MDQzMzk0OTcz.vexKf6UyJUwN1hPJ7vaaw-Wdrw2K6xJ000YmeySO8_Ag.8cJVMAy5NidfUxYzlSLaJ6mLYzhQAV9XSKHWP-X243cg.PNG.gauss3th/image.png?type=w773)
+<center>
+    <div class="photoset-grid-custom" data-layout="213">
+        <img src="../images/2021-06-30/Focal Loss 2.png">
+    </div>
+</center>
 
 우리에게 Major Class는 구매 안 함(False Label)을 의미하며 이 경우 y=0이다.
 
@@ -71,7 +83,11 @@ Loss Function 상에서 Major Class의 영향을 줄이고자 한 것이 Focal L
 
 그래서 쉬운 Major Class Sample의 Loss 값을 더 Zero에 가깝게 하겠다는 것이 Focal Loss의 개념이다.
 
-![img](https://postfiles.pstatic.net/MjAyMTA2MzBfMjEz/MDAxNjI1MDQzNDEwMTg4.f2zIfQGSH4nI5YhkLZ6rIng4H6F0-dF9-tzXNe_KYfkg.kkTxQqPxYli0n0p0Gkxv3uArQ3ey2EOPnyg47-Xyezsg.PNG.gauss3th/image.png?type=w773)
+<center>
+    <div class="photoset-grid-custom" data-layout="213">
+        <img src="../images/2021-06-30/Focal Loss 3.png">
+    </div>
+</center>
 
 별로 어려울 것도 없이, 쉬운 Sample은 정보량도 작게 만들어주겠다는 것이었다.
 
