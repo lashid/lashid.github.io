@@ -3,11 +3,14 @@ description:      Developer who shuffle data and change lives
 copyright:        jinha
 url: # add your custom site url (format: https://example.com)
 
-
 future:      false  # publish future dated posts --  true, false (default)
 highlighter: rouge
 markdown:    kramdown
+
+cover: "/images/header/mint.png"
+
 gems:
+
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-gist
