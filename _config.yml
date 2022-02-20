@@ -1,13 +1,11 @@
 title:            Dedicated to you.
 description:      Developer who shuffle data and change lives
 copyright:        jinha
-url: # add your custom site url (format: https://example.com)
+url: "https://lashid.github.io/"
 
 future:      false  # publish future dated posts --  true, false (default)
 highlighter: rouge
 markdown:    kramdown
-
-cover: /assets/mint.png
 
 gems:
 
