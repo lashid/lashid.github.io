@@ -2,6 +2,7 @@ title:            Dedicated to you.
 description:      Developer who shuffle data and change lives
 copyright:        jinha
 url: 'https://lashid.github.io/'
+image: "https://user-images.githubusercontent.com/55773003/154839786-eff199fb-5c9a-468f-a72b-5ac58b4c99d6.png"
 
 future:      false  # publish future dated posts --  true, false (default)
 highlighter: rouge
