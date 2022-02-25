@@ -32,9 +32,6 @@ paginate: 5
 #  toc_levels: 1..6
 #  enable_coderay: false
 
-favicon: public/img/og_image.png
-cover: public/img/og_image.png
-
 include:
   - .htaccess
 
