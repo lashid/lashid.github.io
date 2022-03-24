@@ -12,7 +12,7 @@ date-string: SEPTEMBER 28, 2021
 2. Fi-GNN (GNN)
 3. PLE (Multitask)
 
-▶ 결론부터 말하면
+** 결론부터 말하면
 
 * AUROC는 DeepLight > Fi-GNN
 
