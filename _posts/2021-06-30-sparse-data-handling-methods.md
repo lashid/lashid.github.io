@@ -16,11 +16,10 @@ date-string: JUNE 30, 2021
 
 * GAN 등 생성 모델을 통해 True Label을 만들어내는 것이 Over Sampling이고
   Major Class를 줄여 불균형을 해소하는 것이 Under Sampling이다.
-  
 
 * 우리는 여러 방법들을 고민했고, 시간이나 인프라상 이유로 Under Sampling을 시도했다.
   
-  <U>**핵심은 너무 쉬운 정답 데이터는 학습 할 때 고려를 적게 하겠다는 것이다.**</U>
+  **<U>핵심은 너무 쉬운 정답 데이터는 학습 할 때 고려를 적게 하겠다는 것이다.</U>** 
 
 <center>
     <div class="photoset-grid-custom" data-layout="213">
@@ -30,7 +29,6 @@ date-string: JUNE 30, 2021
 
 * 기존의 Undersampling 방법이 Cluster를 기반하으로 하는 등의 방식을 사용했다면,
   RBU는 Major Class의 밀집도가 높은 지역에서 Minor Class와 거리가 먼 Sample을 제거하는 방식을 택했다.
-  
 
 * 즉, True와 False의 경계에 있는 Decision을 학습하는 것이 더 중요하다고 생각한 것이다.
   
@@ -44,7 +42,7 @@ date-string: JUNE 30, 2021
   * 우리는 거리를 계산하는 벡터는 따로 임베딩 없이 범주형 변수만 빼고, 연속형 변수만 가져다가 거리 계산 했음!
 2. Focal Loss
 * Focal Loss는 Undersampling 과 비슷한 효과를 내는 방식인데,
-  Loss Function 상에서 <U>**Major Class의 영향을 줄이고자 한 것이다.**</U>
+  Loss Function 상에서 **<U>Major Class의 영향을 줄이고자 한 것이다.</U>**
   이를 이해하기 위해서는 먼저 Binary Classification에서 활용하는 Cross Entropy Loss Function을 알 필요가 있다.
 
 <center>
@@ -69,7 +67,7 @@ date-string: JUNE 30, 2021
     </div>
 </center>
 
-* 별로 어려울 것도 없이, **<u>쉬운 Sample은 정보량도 작게 만들어주겠다는 것</u>**이었다.
+* 별로 어려울 것도 없이, **<u>쉬운 Sample은 정보량도 작게 만들어주겠다는 것</u>** 이었다.
   감마는 하이퍼파라미터로 당연히 클수록 쉬운 Sample의 정보량이 더 많이 작아지게 된다.
       
 
