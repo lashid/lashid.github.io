@@ -73,7 +73,7 @@ date-string: MARCH 24, 2022
   
   * <center>
         <div class="photoset-grid-custom" data-layout="213">
-            <img src="/images/2022-03-24-DiceML-For-Offer-Optimization/dist_contloss.jpg">
+            <img src="/images/2022-03-24-DiceML-For-Offer-Optimization/dist_cont.jpg">
         </div>
     </center>
 
@@ -105,7 +105,7 @@ date-string: MARCH 24, 2022
   
   * <center>
         <div class="photoset-grid-custom" data-layout="213">
-            <img src="/images/2022-03-24-DiceML-For-Offer-Optimization/Proximitydiversity.jpg">
+            <img src="/images/2022-03-24-DiceML-For-Offer-Optimization/Proximity.jpg">
         </div>
     </center>
 
@@ -133,10 +133,6 @@ date-string: MARCH 24, 2022
   
   * KD Tree 공간에서 Nearest Neighbor를 찾는 방식.
 
-
-
 그리고, 논문의 후반쯤에 the Local Decision Boundary 근사에 대한 내용이 나오는데, Original Input과, 생성된 CounterFactuals로 학습된 새로운 ML Model을 통해서 기존 모델과, 이렇게 생성된 모델을 통해 Decision Boundary를 계산할 수 있다고 표현.
-
-
 
 개인적으로, 회사에서 사용하기에는 위에서 말한 Local Boundary를 근사하는 것이 필수가 아닐까 싶음. 분석가들 말고, 기획자들을 설득하기 위한 Tool로서.
