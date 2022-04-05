@@ -91,7 +91,9 @@ date-string: MARCH 24, 2022
 
 * DPP Diversity
 
-* 본문에서 다양성이란 것의 의미는 결과로 나온 Counter Factual들의 유사성에 대한 내용이다. 이론적으로, 각 Counter Factual들이 모두 직교하면 DPP Diversity는 커질 것이다.
+* 본문에서 다양성이란 것의 의미는 결과로 나온 Counter Factual들의 유사성에 대한 내용이다.
+  
+  여기서 K는, 모든 Counter Factuals 의 Pair Distance의 역수인데, 따라서 해당 K 행렬은 대칭행렬이 되며, 이론적으로, 각 Counter Factual들이 모두 거리가 비슷하게 분포되어 있으면 Determinant 값이 작아질 것이다.
   
   * <center>
         <div class="photoset-grid-custom" data-layout="213">
@@ -111,6 +113,8 @@ date-string: MARCH 24, 2022
 
 ## Search Method
 
+회사에서는 Sklearn의 LGBM을 활용했기에, 아래 3가지 Method 를 사용할 수 있었다.
+
 * Random
   
   * Baseline 처럼 활용 가능, 가능한 공간에서 Random으로 Point를 Search.
@@ -128,10 +132,14 @@ date-string: MARCH 24, 2022
     * N개를 제외한 나머지 중 50%는 부모 2명을 골라 자손으로 대체.
       
       * 이 중 40%는 부모 1의 Feature를, 40%는 부모 2의 Feature를, 나머지 20%는 새로운 Feature Value를 부여받음.
+  
+  * 참고로, 변경시킬 Feature 수가 적으면, 자손대에서 별로 발전이 없었다.
 
 * KD-Tree
   
   * KD Tree 공간에서 Nearest Neighbor를 찾는 방식.
+
+
 
 그리고, 논문의 후반쯤에 the Local Decision Boundary 근사에 대한 내용이 나오는데, Original Input과, 생성된 CounterFactuals로 학습된 새로운 ML Model을 통해서 기존 모델과, 이렇게 생성된 모델을 통해 Decision Boundary를 계산할 수 있다고 표현.
 
