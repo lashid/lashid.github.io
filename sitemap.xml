@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://lashid.github.io/</loc>
+  <lastmod>2022-07-18T06:06:42+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://lashid.github.io/archives/</loc>
+  <lastmod>2022-07-18T06:06:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lashid.github.io/tags/</loc>
+  <lastmod>2022-07-18T06:06:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lashid.github.io/about/</loc>
+  <lastmod>2022-07-18T06:06:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lashid.github.io/posts/2022-07-13/MetaCVR-&amp;-Prototype-Network-to-get-Effective-Customers.html</loc>
+  <lastmod>2022-07-18T06:06:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lashid.github.io/posts/2022-03-24/DiceML-For-Offer-Optimization.html</loc>
+  <lastmod>2022-07-18T06:06:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lashid.github.io/posts/2022-02-24/AB-Test-in-Recommendation.html</loc>
+  <lastmod>2022-07-18T06:06:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lashid.github.io/posts/2021-09-28/some-Models-in-Recommendation.html</loc>
+  <lastmod>2022-07-18T06:06:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lashid.github.io/posts/2021-06-30/sparse-data-handling-methods.html</loc>
+  <lastmod>2022-07-18T06:06:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
