@@ -1,3 +1,5 @@
+<data>
+<![CDATA[
 ---
 layout: null
 ---
@@ -28,3 +30,5 @@ layout: null
     {% endfor %}
   </channel>
 </rss>
+]]>
+</data>
